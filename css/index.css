@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    background-color: rgb(169, 244, 244);
+}
+
+header figure img .container{
+    display: block;
+    position: relative;
+    bottom: 100px;
+}
+header figure nav .menu ul{
+    background-color: white;
+    padding: 12px 5px 10px 5px;
+    position: relative;
+    bottom: 860px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+header figure nav .menu ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+header figure nav .menu ul a{
+    font-size: 18px;
+    margin: 10px;
+    color: rgb(31, 31, 130);
+}
+
+header figure nav .menu ul a:hover{
+    color: rgb(23, 23, 255);
+
+}
+
+body header .nomeNoronha{
+    font-size: 60px;
+    position: relative;
+    bottom: 300px;
+    color: white;
+}
+
+
+body table tr td p{
+    text-align: center;
+}
+
+body table tr td img{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+body iframe{
+    position: relative;
+    left: 500px;
+    border-radius: 20px;
+}
